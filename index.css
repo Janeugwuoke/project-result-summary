@@ -199,7 +199,8 @@ button{
     body{
         background-color: white;
         margin: auto;
-        margin-top: 0%;
+        margin-top: 50%;
+        margin-bottom: 50;
     }
     
 .main{
