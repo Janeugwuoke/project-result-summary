@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(43, 42, 42);
+    margin: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: none;
+    background-color: aliceblue;
+    
+}
+
+.bluecard{
+    border-radius:0px 0px 20px 20px;
+    background-color: hsl(252, 86%, 58%);
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* margin: auto; */
+    
+    
+}
+.bluecircle{
+    background-color: hsl(241, 57%, 55%);
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    margin: auto;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: none;
+
+}
+.number p{
+    margin: 0;
+    }
+
+    #seven{
+        color: white;
+        font-size: 30px;
+        font-weight:900;
+    }
+
+    #score{
+        text-align: center;
+    }
+h4{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+p{
+    color:hsl(241, 100%, 89%)
+}
+.whitecard{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: aliceblue;
+width: 100%;
+/* margin-top: 0; */
+}
+.whitecard p{
+    color: rgb(49, 49, 84);
+    text-align: left;
+}
+
+.Reaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 243, 244);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+
+}
+
+.charging{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.charging img{
+    width: 50%;
+    height: 10px;
+}
+
+.Reaction p{color: rgb(213, 34, 34);
+
+}
+
+.Memory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(242, 240, 227);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.micon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.micon img{
+    width: 8%;
+    height: 10px;
+}
+.micon p{
+    color: rgb(230, 215, 53);
+}
+
+.Verbal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 243, 235);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.Vicon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Vicon img{
+    width: 20%;
+    height: 10px;
+}
+
+.Vicon p{color: rgb(12, 183, 12);
+
+}
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 243, 244);
+    border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon img{
+    width: 20%;
+    height: 10px;
+}
+.icon p{
+    color: rgb(34, 34, 109);
+}
+
+button{
+   width: 90%; 
+   height: 30px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(49, 49, 84);
+   color: white;
+   margin-bottom: 10px;
+}
+
+@media only screen and (min-width:768px) {
+
+    body{
+        background-color: white;
+        margin: auto;
+        margin-top: 0%;
+    }
+    
+.main{
+    display: flex;
+    flex-direction: row;
+    border-radius:20px;
+    width: 50%
+}
+    .bluecard{
+        border-radius:20px;
+}
+ 
+}
